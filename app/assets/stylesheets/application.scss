@@ -13,5 +13,11 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap-sprockets";
-@import "bootstrap";
+.header {
+  font-size: 40px;
+  margin: 0;
+  padding: 8px;
+  background-color: #EEEEEE;
+  width: 100vw;
+  height: 72px;
+}

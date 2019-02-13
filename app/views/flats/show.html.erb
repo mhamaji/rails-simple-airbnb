@@ -1,5 +1,7 @@
-<h1><%= @flat.name %></h1>
-<h1><%= @flat.address %></h1>
-<h1><%= @flat.description %></h1>
-<h1><%= @flat.price_per_night %></h1>
-<h1><%= @flat.number_of_guests %></h1>
+<div class="container">
+  <h1><%= @flat.name %></h1>
+  <h1>Address: <%= @flat.address %></h1>
+  <h1>Description: <%= @flat.description %></h1>
+  <h1>Price $<%= @flat.price_per_night %></h1>
+  <h1>Number of Guests: <%= @flat.number_of_guests %></h1>
+</div>
