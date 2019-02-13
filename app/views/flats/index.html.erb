@@ -1,0 +1,13 @@
+<h1>All our flats</h1>
+<ul>
+  <% @flats.each do |flat| %>
+    <%= link_to flat do %>
+      <li>
+        <%= flat.name %>
+        <%= flat.price_per_night %>
+        <%= flat.number_of_guests %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+
